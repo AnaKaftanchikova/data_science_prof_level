@@ -1,1 +1,1 @@
-# data_science_prof_level
+# Репозиторий для ДЗ по курсу DS Belhard
