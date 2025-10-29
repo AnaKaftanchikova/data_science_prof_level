@@ -18,12 +18,3 @@
 # Полученные графики
 
 Все графики находятся в папке out_jpg.
-- feature - Графики распределения показателей датасета
-- clustering - Результат кластеризации (внутри папки с графиками по методам)
-
-1. ![Распределение важности признаков](out_jpg/Feature_importance.png)
-2. ![Матрица корреляции](out_jpg/Corr_origin_info.png)
-3. ![Матрица ошибок для Stacking Classifier](out_jpg/Conf_matrix.png)
-4. ![Важность базовых классификаторов на основе мета-классификатора (Logistic Regression)](out_jpg/Feature_importances_with_logreg.png)
-
-
