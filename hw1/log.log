@@ -1,92 +1,90 @@
-2025-10-30 00:39:46 - INFO: === ЗАГРУЗКА ДАННЫХ ===
-2025-10-30 00:39:46 - INFO: Чтение файла прошло успешно
-2025-10-30 00:39:46 - INFO: Размер датасета: (1000, 17)
-2025-10-30 00:39:46 - INFO: Первые строки:
-     Invoice ID Branch       City Customer type  Gender  ...      Payment    cogs  gross margin percentage  gross income  Rating
-0  750-67-8428      A     Yangon        Member  Female  ...      Ewallet  522.83                 4.761905       26.1415     9.1
-1  226-31-3081      C  Naypyitaw        Normal  Female  ...         Cash   76.40                 4.761905        3.8200     9.6
-2  631-41-3108      A     Yangon        Normal    Male  ...  Credit card  324.31                 4.761905       16.2155     7.4
-3  123-19-1176      A     Yangon        Member    Male  ...      Ewallet  465.76                 4.761905       23.2880     8.4
-4  373-73-7910      A     Yangon        Normal    Male  ...      Ewallet  604.17                 4.761905       30.2085     5.3
+2025-10-30 01:30:55 - INFO: === ЗАГРУЗКА ДАННЫХ ===
+2025-10-30 01:30:55 - INFO: Чтение файла прошло успешно
+2025-10-30 01:30:55 - INFO: Размер датасета: (14204, 12)
+2025-10-30 01:30:55 - INFO: Первые строки:
+   Item_Identifier  Item_Weight Item_Fat_Content  Item_Visibility  ... Outlet_Size  Outlet_Location_Type        Outlet_Type  Item_Outlet_Sales
+0           FDA15         9.30          Low Fat         0.016047  ...      Medium                Tier 1  Supermarket Type1          3735.1380
+1           DRC01         5.92          Regular         0.019278  ...      Medium                Tier 3  Supermarket Type2           443.4228
+2           FDN15        17.50          Low Fat         0.016760  ...      Medium                Tier 1  Supermarket Type1          2097.2700
+3           FDX07        19.20          Regular         0.000000  ...         NaN                Tier 3      Grocery Store           732.3800
+4           NCD19         8.93          Low Fat         0.000000  ...        High                Tier 3  Supermarket Type1           994.7052
 
-[5 rows x 17 columns]
-2025-10-30 00:39:46 - INFO: Пропуски: 0
+[5 rows x 12 columns]
+2025-10-30 01:30:55 - INFO: Пропуски: 6455
 
-2025-10-30 00:39:46 - INFO: === ПРЕДОБРАБОТКА ===
-2025-10-30 00:39:46 - INFO: Матрица корреляции
-2025-10-30 00:39:46 - INFO: Train shape: (800, 16), Test shape: (200, 16)
+2025-10-30 01:30:55 - INFO: === ПРЕДОБРАБОТКА ===
+2025-10-30 01:30:56 - INFO: Матрица корреляции
+2025-10-30 01:30:56 - INFO: Train shape: (11363, 13), Test shape: (2841, 13)
 
-2025-10-30 00:39:46 - INFO: === ОБУЧЕНИЕ МОДЕЛЕЙ ===
-2025-10-30 00:39:46 - INFO: LinearRegression     | MAE=86.87 | RMSE=110.09 | R²=0.814
-2025-10-30 00:39:46 - INFO: Lasso                | MAE=86.84 | RMSE=110.02 | R²=0.814
-2025-10-30 00:39:46 - INFO: Ridge                | MAE=86.88 | RMSE=110.10 | R²=0.814
-2025-10-30 00:39:46 - INFO: DecisionTree         | MAE=1.80 | RMSE=2.93 | R²=1.000
-2025-10-30 00:39:47 - INFO: RandomForest         | MAE=0.89 | RMSE=1.56 | R²=1.000
-2025-10-30 00:39:48 - INFO: ExtraTrees           | MAE=0.77 | RMSE=1.20 | R²=1.000
-2025-10-30 00:39:48 - INFO: GradientBoosting     | MAE=0.64 | RMSE=1.03 | R²=1.000
-2025-10-30 00:39:49 - INFO: CatBoost             | MAE=6.00 | RMSE=12.92 | R²=0.997
-2025-10-30 00:39:49 - INFO:   
+2025-10-30 01:30:56 - INFO: === ОБУЧЕНИЕ МОДЕЛЕЙ ===
+2025-10-30 01:30:56 - INFO: LinearRegression     | MAE=694.59 | RMSE=967.10 | R²=0.582
+2025-10-30 01:30:56 - INFO: Lasso                | MAE=694.56 | RMSE=967.09 | R²=0.582
+2025-10-30 01:30:56 - INFO: Ridge                | MAE=694.58 | RMSE=967.08 | R²=0.582
+2025-10-30 01:30:56 - INFO: DecisionTree         | MAE=802.42 | RMSE=1220.09 | R²=0.335
+2025-10-30 01:31:04 - INFO: RandomForest         | MAE=523.21 | RMSE=827.76 | R²=0.694
+2025-10-30 01:31:07 - INFO: ExtraTrees           | MAE=520.88 | RMSE=819.54 | R²=0.700
+2025-10-30 01:31:14 - INFO: GradientBoosting     | MAE=532.95 | RMSE=843.13 | R²=0.683
+2025-10-30 01:31:15 - INFO: CatBoost             | MAE=515.98 | RMSE=814.10 | R²=0.704
+2025-10-30 01:31:15 - INFO:   
 
-2025-10-30 00:39:49 - INFO: === СРАВНЕНИЕ МОДЕЛЕЙ ===
-2025-10-30 00:39:49 - INFO:               Model        MAE        RMSE        R2
-6  GradientBoosting   0.644275    1.031710  0.999984
-5        ExtraTrees   0.774129    1.198292  0.999978
-4      RandomForest   0.891705    1.564140  0.999962
-3      DecisionTree   1.802588    2.926508  0.999868
-7          CatBoost   5.995356   12.920647  0.997434
-1             Lasso  86.836272  110.015714  0.813962
-0  LinearRegression  86.874356  110.085023  0.813727
-2             Ridge  86.877762  110.099270  0.813679
-2025-10-30 00:39:49 - INFO:   
+2025-10-30 01:31:15 - INFO: === СРАВНЕНИЕ МОДЕЛЕЙ ===
+2025-10-30 01:31:15 - INFO:               Model         MAE         RMSE        R2
+7          CatBoost  515.975215   814.097543  0.704132
+5        ExtraTrees  520.878133   819.544459  0.700159
+4      RandomForest  523.208187   827.761589  0.694117
+6  GradientBoosting  532.947536   843.128483  0.682654
+2             Ridge  694.581141   967.083604  0.582484
+1             Lasso  694.564174   967.085410  0.582482
+0  LinearRegression  694.590747   967.104261  0.582466
+3      DecisionTree  802.415446  1220.092516  0.335445
+2025-10-30 01:31:15 - INFO:   
 
-2025-10-30 00:39:49 - INFO: === ВИЗУАЛИЗАЦИЯ ===
-2025-10-30 00:39:49 - INFO: Столбчатая диаграмма
-2025-10-30 00:39:49 - INFO: 
-Лучшая модель: GradientBoosting
-2025-10-30 00:39:49 - INFO: Точечная диаграмма
-2025-10-30 00:51:28 - INFO: === ЗАГРУЗКА ДАННЫХ ===
-2025-10-30 00:51:28 - INFO: Чтение файла прошло успешно
-2025-10-30 00:51:28 - INFO: Размер датасета: (1000, 17)
-2025-10-30 00:51:28 - INFO: Первые строки:
-     Invoice ID Branch       City Customer type  Gender  ...      Payment    cogs  gross margin percentage  gross income  Rating
-0  750-67-8428      A     Yangon        Member  Female  ...      Ewallet  522.83                 4.761905       26.1415     9.1
-1  226-31-3081      C  Naypyitaw        Normal  Female  ...         Cash   76.40                 4.761905        3.8200     9.6
-2  631-41-3108      A     Yangon        Normal    Male  ...  Credit card  324.31                 4.761905       16.2155     7.4
-3  123-19-1176      A     Yangon        Member    Male  ...      Ewallet  465.76                 4.761905       23.2880     8.4
-4  373-73-7910      A     Yangon        Normal    Male  ...      Ewallet  604.17                 4.761905       30.2085     5.3
+2025-10-30 01:31:15 - INFO: === ВИЗУАЛИЗАЦИЯ ===
+2025-10-30 01:31:15 - INFO: Столбчатая диаграмма
+2025-10-30 01:31:15 - INFO: Лучшая модель: CatBoost
+2025-10-30 01:31:16 - INFO: Точечная диаграмма построена
+2025-11-02 20:25:17 - INFO: === ЗАГРУЗКА ДАННЫХ ===
+2025-11-02 20:25:17 - INFO: Чтение файла прошло успешно
+2025-11-02 20:25:17 - INFO: Размер датасета: (14204, 12)
+2025-11-02 20:25:17 - INFO: Первые строки:
+   Item_Identifier  Item_Weight Item_Fat_Content  Item_Visibility  ... Outlet_Size  Outlet_Location_Type        Outlet_Type  Item_Outlet_Sales
+0           FDA15         9.30          Low Fat         0.016047  ...      Medium                Tier 1  Supermarket Type1          3735.1380
+1           DRC01         5.92          Regular         0.019278  ...      Medium                Tier 3  Supermarket Type2           443.4228
+2           FDN15        17.50          Low Fat         0.016760  ...      Medium                Tier 1  Supermarket Type1          2097.2700
+3           FDX07        19.20          Regular         0.000000  ...         NaN                Tier 3      Grocery Store           732.3800
+4           NCD19         8.93          Low Fat         0.000000  ...        High                Tier 3  Supermarket Type1           994.7052
 
-[5 rows x 17 columns]
-2025-10-30 00:51:28 - INFO: Пропуски: 0
+[5 rows x 12 columns]
+2025-11-02 20:25:17 - INFO: Пропуски: 6455
 
-2025-10-30 00:51:28 - INFO: === ПРЕДОБРАБОТКА ===
-2025-10-30 00:51:29 - INFO: Матрица корреляции
-2025-10-30 00:51:29 - INFO: Train shape: (800, 16), Test shape: (200, 16)
+2025-11-02 20:25:17 - INFO: === ПРЕДОБРАБОТКА ===
+2025-11-02 20:25:17 - INFO: Матрица корреляции
+2025-11-02 20:25:17 - INFO: Train shape: (11363, 13), Test shape: (2841, 13)
 
-2025-10-30 00:51:29 - INFO: === ОБУЧЕНИЕ МОДЕЛЕЙ ===
-2025-10-30 00:51:29 - INFO: LinearRegression     | MAE=86.87 | RMSE=110.09 | R²=0.814
-2025-10-30 00:51:29 - INFO: Lasso                | MAE=86.84 | RMSE=110.02 | R²=0.814
-2025-10-30 00:51:29 - INFO: Ridge                | MAE=86.88 | RMSE=110.10 | R²=0.814
-2025-10-30 00:51:29 - INFO: DecisionTree         | MAE=1.80 | RMSE=2.93 | R²=1.000
-2025-10-30 00:51:30 - INFO: RandomForest         | MAE=0.89 | RMSE=1.56 | R²=1.000
-2025-10-30 00:51:31 - INFO: ExtraTrees           | MAE=0.77 | RMSE=1.20 | R²=1.000
-2025-10-30 00:51:31 - INFO: GradientBoosting     | MAE=0.64 | RMSE=1.03 | R²=1.000
-2025-10-30 00:51:32 - INFO: CatBoost             | MAE=6.00 | RMSE=12.92 | R²=0.997
-2025-10-30 00:51:32 - INFO:   
+2025-11-02 20:25:17 - INFO: === ОБУЧЕНИЕ МОДЕЛЕЙ ===
+2025-11-02 20:25:17 - INFO: LinearRegression     | MAE=694.59 | RMSE=967.10 | R²=0.582
+2025-11-02 20:25:17 - INFO: Lasso                | MAE=694.56 | RMSE=967.09 | R²=0.582
+2025-11-02 20:25:17 - INFO: Ridge                | MAE=694.58 | RMSE=967.08 | R²=0.582
+2025-11-02 20:25:17 - INFO: DecisionTree         | MAE=802.42 | RMSE=1220.09 | R²=0.335
+2025-11-02 20:25:26 - INFO: RandomForest         | MAE=523.21 | RMSE=827.76 | R²=0.694
+2025-11-02 20:25:29 - INFO: ExtraTrees           | MAE=520.88 | RMSE=819.54 | R²=0.700
+2025-11-02 20:25:36 - INFO: GradientBoosting     | MAE=532.95 | RMSE=843.13 | R²=0.683
+2025-11-02 20:25:37 - INFO: CatBoost             | MAE=515.98 | RMSE=814.10 | R²=0.704
+2025-11-02 20:25:37 - INFO:   
 
-2025-10-30 00:51:32 - INFO: === СРАВНЕНИЕ МОДЕЛЕЙ ===
-2025-10-30 00:51:32 - INFO:               Model        MAE        RMSE        R2
-6  GradientBoosting   0.644275    1.031710  0.999984
-5        ExtraTrees   0.774129    1.198292  0.999978
-4      RandomForest   0.891705    1.564140  0.999962
-3      DecisionTree   1.802588    2.926508  0.999868
-7          CatBoost   5.995356   12.920647  0.997434
-1             Lasso  86.836272  110.015714  0.813962
-0  LinearRegression  86.874356  110.085023  0.813727
-2             Ridge  86.877762  110.099270  0.813679
-2025-10-30 00:51:32 - INFO:   
+2025-11-02 20:25:37 - INFO: === СРАВНЕНИЕ МОДЕЛЕЙ ===
+2025-11-02 20:25:37 - INFO:               Model         MAE         RMSE        R2
+7          CatBoost  515.975215   814.097543  0.704132
+5        ExtraTrees  520.878133   819.544459  0.700159
+4      RandomForest  523.208187   827.761589  0.694117
+6  GradientBoosting  532.947536   843.128483  0.682654
+2             Ridge  694.581141   967.083604  0.582484
+1             Lasso  694.564174   967.085410  0.582482
+0  LinearRegression  694.590747   967.104261  0.582466
+3      DecisionTree  802.415446  1220.092516  0.335445
+2025-11-02 20:25:37 - INFO:   
 
-2025-10-30 00:51:32 - INFO: === ВИЗУАЛИЗАЦИЯ ===
-2025-10-30 00:51:32 - INFO: Столбчатая диаграмма
-2025-10-30 00:51:32 - INFO: 
-Лучшая модель: GradientBoosting
-2025-10-30 00:51:32 - INFO: Точечная диаграмма
+2025-11-02 20:25:37 - INFO: === ВИЗУАЛИЗАЦИЯ ===
+2025-11-02 20:25:37 - INFO: Столбчатая диаграмма
+2025-11-02 20:25:37 - INFO: Лучшая модель: CatBoost
+2025-11-02 20:25:37 - INFO: Точечная диаграмма построена

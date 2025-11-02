@@ -26,8 +26,8 @@ def main():
     # Игнорирование предупреждений (опционально)
     warnings.filterwarnings('ignore')
 
-    # dataset from https://www.kaggle.com/datasets/brijbhushannanda1979/bigmart-sales-data
-    file_path = "bigmart_sales.csv"
+    # dataset from https://www.kaggle.com/datasets/lovishbansal123/sales-of-a-supermarket
+    file_path = "supermarket_sales.csv"
 
     #1
     log.add_log_info('=== ЗАГРУЗКА ДАННЫХ ===')
@@ -46,40 +46,33 @@ def main():
 
     log.add_log_info(f"Размер датасета: {data.shape}")
     log.add_log_info(f"Первые строки:\n {data.head()}")
+    # log.add_log_info(f"Типы данных: {data.info()}")
     log.add_log_info(f"Пропуски: {is_null.sum().sum()}\n")
 
     #2
     log.add_log_info('=== ПРЕДОБРАБОТКА ===')
 
-    for col in data.columns:
-        if data[col].dtype in [np.float64, np.int64]:
-            median_val = data[col].median()
-            data[col] = data[col].fillna(median_val)
-        else:
-            mode_val = data[col].mode(dropna=True)
-            if not mode_val.empty:
-                data[col] = data[col].fillna(mode_val[0])
-            else:
-                data[col] = data[col].fillna("Unknown")
+    data['Date'] = pd.to_datetime(data['Date'])
+    data['Month'] = data['Date'].dt.month
+    data['Day'] = data['Date'].dt.day
+    data['Weekday'] = data['Date'].dt.weekday
+    data['Hour'] = pd.to_datetime(data['Time']).dt.hour
+    data['Is_weekend'] = (data['Weekday'] >= 5).astype(int)
 
-    if data['Item_Weight'].isnull().sum() > 0:
-        data['Item_Weight'] = data['Item_Weight'].fillna(data['Item_Weight'].median())
-    if data['Outlet_Size'].isnull().sum() > 0:
-        data['Outlet_Size'] = data['Outlet_Size'].fillna(data['Outlet_Size'].mode()[0])
+    agg_product = data.groupby('Product line')['Total'].mean().rename('Product_avg_total')
+    agg_customer = data.groupby('Customer type')['Total'].mean().rename('Customer_avg_total')
+    agg_payment = data.groupby('Payment')['Total'].mean().rename('Payment_avg_total')
 
-    # Приведение категорий
-    data['Item_Fat_Content'] = data['Item_Fat_Content'].replace({
-        'LF': 'Low Fat',
-        'low fat': 'Low Fat',
-        'reg': 'Regular'
-    })
+    data = data.merge(agg_product, on='Product line', how='left')
+    data = data.merge(agg_customer, on='Customer type', how='left')
+    data = data.merge(agg_payment, on='Payment', how='left')
 
-    data['Outlet_Age'] = 2025 - data['Outlet_Establishment_Year']
-    data['MRP_Tier'] = pd.cut(
-        data['Item_MRP'],
-        bins=[0, 100, 200, 300, 400],
-        labels=['Low', 'Medium', 'High', 'Very High']
-    ).astype(str)  
+    data['Product_Customer'] = data['Product line'].astype(str) + "_" + data['Customer type'].astype(str)
+
+    data['Price_Quantity_log'] = np.log1p(data['Unit price'] * data['Quantity'])
+
+    drop_cols = ['Invoice ID', 'Date', 'Time', 'cogs', 'Tax 5%', 'Unit price', 'Quantity',
+                 'gross margin percentage', 'gross income', 'Total', 'Branch']
 
     log.add_log_debug('Разделение столбцов на числовые и категориальные')
     numeric_columns = data.select_dtypes(include=['int64', 'float64']).columns.tolist()
@@ -100,7 +93,7 @@ def main():
         data[column] = le.fit_transform(data[column])
         label_encoders[column] = le
 
-    data_corr = data.drop(columns=['Item_Outlet_Sales'])
+    data_corr = data.drop(columns=drop_cols)
 
     try:
         numeric_data = data_corr.select_dtypes(include=[np.number])
@@ -112,8 +105,8 @@ def main():
         log.add_log_debug('finally_after_add_heatmap')
 
 
-    X = data.drop(columns=['Item_Outlet_Sales'])
-    y = data['Item_Outlet_Sales']
+    X = data.drop(columns=drop_cols)
+    y = data['Total']
 
     X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
 
@@ -166,36 +159,17 @@ def main():
 
 
     best_model_name = results_df.sort_values(by="R2", ascending=False).iloc[0]["Model"]
-    log.add_log_info(f"Лучшая модель: {best_model_name}")
+    log.add_log_info(f"\nЛучшая модель: {best_model_name}")
 
     best_model = models[best_model_name]
     best_model.fit(X_train, y_train)
-    y_pred_best = best_model.predict(X_test)
-
-    max_points = 500
-    n_points = len(y_test)
-
-    if n_points > max_points:
-        sampled_indices = np.random.choice(n_points, max_points, replace=False)
-        x_plot = np.arange(n_points)[sampled_indices]  
-        y_test_plot = y_test.iloc[sampled_indices]
-        y_pred_plot = y_pred_best[sampled_indices]
-    else:
-        x_plot = np.arange(n_points)
-        y_test_plot = y_test
-        y_pred_plot = y_pred_best
+    y_pred_best = np.expm1(best_model.predict(X_test))
 
     try:
-        data_visual.add_scatter(
-            x_plot,          
-            y_test_plot,     # Y фактические
-            y_pred_plot,     # Y предсказанные
-            name='Scatter_info',
-            title=f"Прогноз продаж ({best_model_name})"
-        )
-        log.add_log_info('Точечная диаграмма построена')
+        data_visual.add_scatter(range(len(y_test)), y_test, y_pred, 'Scatter_info', f"Прогноз продаж ({best_model_name})")
+        log.add_log_info('Точечная диаграмма')
     except Exception as e:
-        log.add_log_error(f'Ошибка при построении scatter: {e}')
+        log.add_log_error(f'Произошла ошибка: {e}')
     finally:
         log.add_log_debug('finally_after_add_scatter')
 
