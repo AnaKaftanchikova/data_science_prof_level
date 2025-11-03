@@ -190,13 +190,6 @@ def main():
 
         print("\nРезультаты моделей:\n", results_df)
         logger.info(" 5. Результаты моделей сохранены отдельно в results.csv")
-
-        # 6. Визуализация 
-        '''
-        data_visual.plot_correlation(df)
-        print("\nРабота завершена. Для визуализации запусти Streamlit:")
-        print("   ➜  streamlit run streamlit_app.py")
-        '''
         
     except Exception as e:
         logger.error(f"Ошибка: {e}", exc_info=True)
