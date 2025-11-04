@@ -7,7 +7,7 @@
 
 # Датасет
 
-Датасет взят по ссылке <https://www.kaggle.com/datasets/lovishbansal123/sales-of-a-supermarket>
+Датасет взят по ссылке <https://www.kaggle.com/datasets/adepvenugopal/bigmart-sales>
 
 # Модули
 
