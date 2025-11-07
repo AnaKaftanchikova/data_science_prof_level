@@ -1,0 +1,48 @@
+2025-11-07 22:36:48,459 - INFO - === Запуск проекта ===
+2025-11-07 22:36:48,459 - INFO - Кластеризация
+2025-11-07 22:36:48,464 - INFO -    CustomerID   Genre  Age  Annual Income (k$)  Spending Score (1-100)
+0           1    Male   19                  15                      39
+1           2    Male   21                  15                      81
+2           3  Female   20                  16                       6
+3           4  Female   23                  16                      77
+4           5  Female   31                  17                      40
+2025-11-07 22:36:48,929 - INFO - Agglomerative кластеризация:
+2025-11-07 22:36:48,930 - INFO - Cluster_Agg
+0    45
+1    45
+2    39
+3    28
+4    22
+5    21
+Name: count, dtype: int64
+2025-11-07 22:36:48,931 - INFO - 
+DBSCAN:
+2025-11-07 22:36:48,931 - INFO - Cluster_DBSCAN
+-1    66
+ 1    50
+ 3    32
+ 2    29
+ 0    16
+ 4     7
+Name: count, dtype: int64
+2025-11-07 22:36:48,931 - INFO - Методы понижения размерности (UMAP, LDA)
+2025-11-07 22:36:48,942 - INFO -   class cap-shape cap-surface cap-color bruises odor gill-attachment  ... veil-type veil-color ring-number ring-type spore-print-color population habitat
+0     p         x           s         n       t    p               f  ...         p          w           o         p                 k          s       u
+1     e         x           s         y       t    a               f  ...         p          w           o         p                 n          n       g
+2     e         b           s         w       t    l               f  ...         p          w           o         p                 n          n       m
+3     p         x           y         w       t    p               f  ...         p          w           o         p                 k          s       u
+4     e         x           s         g       f    n               f  ...         p          w           o         e                 n          a       g
+
+[5 rows x 23 columns]
+2025-11-07 22:37:10,611 - INFO - Classification Report:
+
+2025-11-07 22:37:10,615 - INFO -               precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00       843
+           1       1.00      1.00      1.00       782
+
+    accuracy                           1.00      1625
+   macro avg       1.00      1.00      1.00      1625
+weighted avg       1.00      1.00      1.00      1625
+
+2025-11-07 22:37:10,686 - INFO - Всё завершено успешно!
