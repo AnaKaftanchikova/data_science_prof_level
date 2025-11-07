@@ -16,8 +16,11 @@
 # Датасеты
 
 Для п.1 - Датасет взят по ссылке <https://www.kaggle.com/datasets/shwetabh123/mall-customers>
+
 Для п.2 - Датасет взят по ссылке <https://www.kaggle.com/datasets/uciml/mushroom-classification/data>
+
 Для п.3 - Датасет взят по ссылке <https://www.kaggle.com/datasets/atulanandjha/lfwpeople/data>
+
 Все датасеты находятся в папка data в подпапках согласно заданию.
 
 # Модули
@@ -32,6 +35,7 @@
 - clustering.ipynb - решение п.1
 - umap_lda.ipynb - решение п.2
 - vae.ipynb - решение п.3
+
 Каждому блокноту соответствует файл с расширением py для запуска из main. Для того чтобы запускать эти файлы отдельно, необходимо корректировать пути импорта и сохранения добавляя ../
 
 По итогу работы:
