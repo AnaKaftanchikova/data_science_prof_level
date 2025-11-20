@@ -1,0 +1,6 @@
+path: dataset/rich  # Абсолютный или относительный путь к датасету
+train: images/train
+val: images/val
+
+nc: 1
+names: ['Rich']
