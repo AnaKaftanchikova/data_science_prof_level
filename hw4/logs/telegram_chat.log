@@ -1,0 +1,383 @@
+INFO:apscheduler.scheduler:Scheduler started
+INFO:telegram.ext.Application:Application started
+INFO:root:USER: Команда место
+INFO:root:BOT: Собака находится на поводке, дрессировщик усаживает собаку рядом, у левой ноги, подаёт команду «Место» и плавно, левой рукой, натягивает поводок вверх так, чтобы собака чувствовала, что она находится под контролем, но в тоже время ей было комфортно сидеть, и обходит один круг вокруг собаки. Двигаться вокруг собаки нужно уверенно, при этом рука с поводком не должна двигаться из стороны в сторону. Возвратившись на исходную позицию, дрессировщик убирает натяжение поводка и хвалит собаку голосом «хорошо, молодец»
+INFO:root:USER: Норма порции
+INFO:root:BOT: Извини, я пока не понял тебя
+INFO:root:USER: Пример порции
+INFO:root:BOT: Извини, я пока не понял тебя
+INFO:root:USER: Норма корма
+INFO:root:BOT: Дай мне данные: 1) Вес собаки, 2) Возраст (месяцы/годы), 3) Тип питания (натуралка/сухой/комбо), 4) Кастрирована или нет. И я рассчитаю порцию.
+INFO:root:USER: 5 кг
+INFO:root:BOT: Извини, я пока не понял тебя
+INFO:root:USER: Норма корма
+INFO:root:BOT: Дай мне данные: 1) Вес собаки, 2) Возраст (месяцы/годы), 3) Тип питания (натуралка/сухой/комбо), 4) Кастрирована или нет. И я рассчитаю порцию.
+INFO:root:USER: 5 кг, 8 месяцев
+INFO:root:BOT: Извини, я пока не понял тебя
+INFO:telegram.ext.Application:Application is stopping. This might take a moment.
+INFO:apscheduler.scheduler:Scheduler has been shut down
+INFO:telegram.ext.Application:Application.stop() complete
+INFO:apscheduler.scheduler:Scheduler started
+INFO:telegram.ext.Application:Application started
+INFO:root:USER: Норма корма
+INFO:root:BOT: Дай мне данные: 1) Вес собаки, 2) Возраст (месяцы/годы), 3) Тип питания (натуралка/сухой/комбо), 4) Кастрирована или нет. И я рассчитаю порцию.
+INFO:root:USER: 6 кг, 10 месяцев
+INFO:root:BOT: Извини, я пока не понял тебя
+INFO:telegram.ext.Application:Application is stopping. This might take a moment.
+INFO:apscheduler.scheduler:Scheduler has been shut down
+INFO:telegram.ext.Application:Application.stop() complete
+INFO:apscheduler.scheduler:Scheduler started
+INFO:telegram.ext.Application:Application started
+INFO:root:USER: Норма корма
+INFO:root:BOT: Дай мне данные: 1) Вес собаки, 2) Возраст (месяцы/годы), 3) Тип питания (натуралка/сухой/комбо), 4) Кастрирована или нет. И я рассчитаю порцию.
+INFO:root:USER: 6 кг, 10 месяцев
+INFO:root:BOT: Извини, я пока не понял тебя
+INFO:root:USER: Повтори
+INFO:root:BOT: Извини, я пока не понял тебя
+INFO:root:USER: Снова
+INFO:root:BOT: Извини, я пока не понял тебя
+INFO:root:USER: снова
+INFO:root:BOT: Извини, я пока не понял тебя
+INFO:telegram.ext.Application:Application is stopping. This might take a moment.
+INFO:apscheduler.scheduler:Scheduler has been shut down
+INFO:telegram.ext.Application:Application.stop() complete
+INFO:apscheduler.scheduler:Scheduler started
+INFO:telegram.ext.Application:Application started
+INFO:root:USER: Хеллоу
+INFO:root:BOT: Рад вас видеть! Чем могу быть полезен вам и вашему питомцу?
+INFO:root:USER: Норма корма
+INFO:root:BOT: Дай мне данные: 1) Вес собаки, 2) Возраст (месяцы/годы), 3) Тип питания (натуралка/сухой/комбо), 4) Кастрирована или нет. И я рассчитаю порцию.
+INFO:telegram.ext.Application:Application is stopping. This might take a moment.
+INFO:apscheduler.scheduler:Scheduler has been shut down
+INFO:telegram.ext.Application:Application.stop() complete
+INFO:apscheduler.scheduler:Scheduler started
+INFO:telegram.ext.Application:Application started
+INFO:root:USER: Хеллоу
+INFO:root:BOT: Рад вас видеть! Чем могу быть полезен вам и вашему питомцу?
+INFO:root:USER: Норма корма
+INFO:root:BOT: Дай мне данные: 1) Вес собаки, 2) Возраст (месяцы/годы), 3) Тип питания (натуралка/сухой/комбо), 4) Кастрирована или нет. И я рассчитаю порцию.
+INFO:root:USER: Дрмшшаш
+INFO:root:BOT: Извини, я пока не понял тебя
+INFO:telegram.ext.Application:Application is stopping. This might take a moment.
+INFO:apscheduler.scheduler:Scheduler has been shut down
+INFO:telegram.ext.Application:Application.stop() complete
+INFO:apscheduler.scheduler:Scheduler started
+INFO:telegram.ext.Application:Application started
+INFO:root:USER: Норма корма
+INFO:root:BOT: Дай мне данные: 1) Вес собаки, 2) Возраст (месяцы/годы), 3) Тип питания (натуралка/сухой/комбо), 4) Кастрирована или нет. И я рассчитаю порцию.
+INFO:root:USER: Место
+INFO:root:BOT: Извини, я пока не понял тебя
+INFO:root:USER: Команда место
+INFO:root:BOT: Собака находится на поводке, дрессировщик усаживает собаку рядом, у левой ноги, подаёт команду «Место» и плавно, левой рукой, натягивает поводок вверх так, чтобы собака чувствовала, что она находится под контролем, но в тоже время ей было комфортно сидеть, и обходит один круг вокруг собаки. Двигаться вокруг собаки нужно уверенно, при этом рука с поводком не должна двигаться из стороны в сторону. Возвратившись на исходную позицию, дрессировщик убирает натяжение поводка и хвалит собаку голосом «хорошо, молодец»
+INFO:root:USER: Голос
+INFO:root:BOT: Дрессировщик сажает собаку перед собой, берёт в правую руку лакомство (или апортировочный предмет), и начинает махать рукой, с лакомством (или апортировочным предметом), влево вправо, перед собакой, одновременно произнося команду «Голос». Как только собака залает, дает ей лакомство (или апортировочный предмет) и хвалит голосом «хорошо», «молодец»
+INFO:root:USER: Сидеть
+INFO:root:BOT: Вкусопоощрительный метод: Собака может находиться рядом, у левой ноги дрессировщика в положении стоя, так и перед дрессировщиком. Дрессировщик берёт лакомство в руку, подносит его к мочке носа собаки, произносит команду «сидеть», и, движением руки с лакомством, вверх назад, побуждает собаку принять положение сидя. Как только собака приняла нужное положение, дрессировщик отдаёт собаке лакомство и хвалит её голосом «хорошо, молодец»
+INFO:root:USER: Лежать
+INFO:root:BOT: Контрастный метод: Собака находится рядом у левой ноги дрессировщика в положении сидя. Дрессировщик берёт лакомство в правую руку, подносит его к мочке носа собаки, произносит команду «лежать», одновременно, левой рукой нажимает собаке на холку и движением руки с лакомством, вниз вперёд, побуждает собаку принять положение лёжа. Как только собака приняла нужное положение, дрессировщик отдаёт собаке лакомство и хвалит её голосом «хорошо, молодец»
+INFO:root:USER: Гуляй
+INFO:root:BOT: Метод подражания: Собака находится в положении рядом у левой ноги дрессировщика. Вторая собака, которая знает эту команду, также сидит рядом с человеком (или с дрессировщиком, если это его вторая собака). Дрессировщик подаёт собаке команду «Гуляй» и жестом указывает направление, в котором собаки должны идти гулять. Как только необученная собака последует, за знающей собакой гулять, дрессировщик сразу хвалит её голосом «хорошо», «молодец»
+INFO:root:USER: Собака дрожит
+INFO:root:BOT: Дрожь от страха — нормальная реакция. Успокой собаку: мягкий голос, дистанция от раздражителя, укрытие, вкусняшка за спокойствие
+INFO:root:USER: Собака не дышит
+INFO:root:BOT: Отсутствие дыхания — опасно для жизни. Проверьте, нет ли препятствий в пасти, и сразу вызывайте скорую помощь для животных
+INFO:telegram.ext.Application:Application is stopping. This might take a moment.
+INFO:apscheduler.scheduler:Scheduler has been shut down
+INFO:telegram.ext.Application:Application.stop() complete
+INFO:apscheduler.scheduler:Scheduler started
+INFO:telegram.ext.Application:Application started
+INFO:root:USER: Норма корма
+INFO:root:BOT: Дай мне данные: 1) Вес собаки, 2) Возраст (месяцы/годы), 3) Тип питания (натуралка/сухой/комбо), 4) Кастрирована или нет. И я рассчитаю порцию.
+INFO:root:USER: 6 кг, 10 месяцев
+INFO:root:BOT: **Расчёт нормы питания**
+Вес: 6.0 кг, возраст: 0.8 года
+Тип питания: сухой
+
+
+Суточная калорийность: **805 ккал**
+
+Натуралка: **537 г/сут**
+Сухой корм: **268 г/сут**
+Комбо: **161 г сухого + 215 г натуралки**
+INFO:telegram.ext.Application:Application is stopping. This might take a moment.
+INFO:apscheduler.scheduler:Scheduler has been shut down
+INFO:telegram.ext.Application:Application.stop() complete
+INFO:apscheduler.scheduler:Scheduler started
+INFO:telegram.ext.Application:Application started
+INFO:root:USER: Норма корма
+INFO:root:BOT: Дай мне данные: 1) Вес собаки, 2) Возраст (месяцы/годы), 3) Тип питания (натуралка/сухой/комбо), 4) Кастрирована или нет. И я рассчитаю порцию.
+INFO:root:USER: 6 кг, 10 месяцев
+INFO:root:BOT: **Расчёт нормы питания**
+Вес: 6.0 кг, возраст: 0.8 года
+Тип питания: сухой
+
+
+Суточная калорийность: **805 ккал**
+
+Натуралка: **537 г/сут**
+Сухой корм: **268 г/сут**
+Комбо: **161 г сухого + 215 г натуралки**
+INFO:root:USER: Повтори
+INFO:root:BOT: Укажи, пожалуйста, вес собаки (например: 12 кг).
+INFO:telegram.ext.Application:Application is stopping. This might take a moment.
+INFO:apscheduler.scheduler:Scheduler has been shut down
+INFO:telegram.ext.Application:Application.stop() complete
+INFO:apscheduler.scheduler:Scheduler started
+INFO:telegram.ext.Application:Application started
+INFO:root:USER: Команда сидеть
+INFO:root:BOT: Механический метод: 
+
+Собака находится рядом с левой ногой дрессировщика в положении стоя. 
+
+Дрессировщик произносит команду «сидеть», и, медленно, левой рукой, тянет поводок вверх и назад, побуждая собаку принять положение сидя. 
+
+Как только собака приняла нужное положение, натяжение поводка убирается, и дрессировщик хвалит её голосом «хорошо, молодец»
+INFO:root:USER: Команда лежать
+INFO:root:BOT: Вкусопоощрительный метод: 
+
+Собака находится рядом, у левой ноги дрессировщика в положении сидя. 
+
+Дрессировщик берёт лакомство в руку, подносит его к мочке носа собаки, произносит команду «лежать», и, движением руки с лакомством, вниз вперёд, побуждает собаку принять положение лёжа. 
+
+Как только собака приняла нужное положение, дрессировщик отдаёт собаке лакомство и хвалит её голосом «хорошо, молодец»
+INFO:root:USER: Команда голос
+INFO:root:BOT: Дрессировщик сажает собаку перед собой, берёт в правую руку лакомство (или апортировочный предмет), и начинает махать рукой, с лакомством (или апортировочным предметом), влево вправо, перед собакой, одновременно произнося команду «Голос». 
+
+Как только собака залает, дает ей лакомство (или апортировочный предмет) и хвалит голосом «хорошо», «молодец»
+INFO:root:USER: Команда место
+INFO:root:BOT: Собака находится на поводке, дрессировщик усаживает собаку рядом, у левой ноги, подаёт команду «Место» и плавно, левой рукой, натягивает поводок вверх так, чтобы собака чувствовала, что она находится под контролем, но в тоже время ей было комфортно сидеть, и обходит один круг вокруг собаки. 
+
+Двигаться вокруг собаки нужно уверенно, при этом рука с поводком не должна двигаться из стороны в сторону. 
+
+Возвратившись на исходную позицию, дрессировщик убирает натяжение поводка и хвалит собаку голосом «хорошо, молодец»
+INFO:root:USER: Собака трясётся
+INFO:root:BOT: Такое поведение обычно означает, что собака сбрасывает напряжение
+INFO:root:USER: Привет
+INFO:root:BOT: Здравствуйте! Готов помочь вам и вашей собаке
+INFO:root:USER: Пока
+INFO:root:BOT: Всего доброго! Если возникнут проблемы, я рядом
+INFO:root:USER: Куку
+INFO:root:BOT: Извини, я пока не понял тебя
+INFO:root:USER: Ку
+INFO:root:BOT: Здравствуйте! Готов помочь вам и вашей собаке
+INFO:telegram.ext.Application:Application is stopping. This might take a moment.
+INFO:apscheduler.scheduler:Scheduler has been shut down
+INFO:telegram.ext.Application:Application.stop() complete
+INFO:aiogram:Bot: dog_trainer_assistant [@dog_trainer_assistant_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:root:USER(863177821): Кусается
+INFO:root:BOT: Щенок может кусаться во время игр или когда растут зубы
+INFO:root:USER(863177821): Виляет хвостом
+INFO:root:BOT: Виляние хвостом — способ показать эмоции. 
+
+Чаще всего это радость или дружелюбие, но важно смотреть на весь язык тела собаки
+INFO:root:USER(863177821): Барьер
+INFO:root:BOT: Вкусопоощрительный метод: 
+
+Собака сидит у левой ноги дрессировщика в положении рядом. 
+
+Барьер лежит на земле или приподнят на минимальную высоту. 
+
+Дрессировщик с собакой подходит к барьеру, подаёт команду «Барьер» или «Вперёд» и лакомством ведёт собаку, побуждая её преодолеть барьер. 
+
+Как только собака его преодолевает, дрессировщик отдаёт собаке лакомство и хвалит её голосом «хорошо», «молодец». 
+
+Постепенно увеличивается высота барьера
+INFO:root:USER(863177821): Лежать
+INFO:root:BOT: Механический метод: 
+
+Собака находится рядом, у левой ноги дрессировщика в положении сидя. 
+
+Дрессировщик произносит команду «лежать», и, медленно, правой рукой, тянет поводок вниз вперёд, одновременно, левой рукой нажимает на холку собаке, побуждая собаку принять положение лёжа. 
+
+Как только собака приняла нужное положение, дрессировщик хвалит её голосом «хорошо, молодец»
+INFO:root:USER(863177821): Стоять
+INFO:root:BOT: Механический метод (из движения рядом): 
+
+Собака двигается рядом с дрессировщиком. 
+
+Дрессировщик произносит команду «стоять», и, левой рукой, с внутренней стороны, придерживает собаку под живот, одновременно, правой рукой придерживает за ошейник, не давая собаке продвигаться вперёд, побуждая собаку остаться в положении стоя. 
+
+Как только собака приняла нужное положение, дрессировщик хвалит её голосом «хорошо, молодец»
+INFO:root:USER(863177821): Сидеть
+INFO:root:BOT: Контрастный метод: 
+
+Собака находится рядом с левой ногой дрессировщика в положении стоя. 
+
+Дрессировщик берёт лакомство в правую руку, подносит его к мочке носа собаки, произносит команду «сидеть», и, одновременно, левой рукой нажимаем собаке на круп и движением руки с лакомством, вверх назад, побуждает собаку принять положение сидя. 
+
+Как только собака приняла нужное положение, дрессировщик отдаёт собаке лакомство и хвалит её голосом «хорошо, молодец»
+INFO:root:USER(863177821): Фу
+INFO:root:BOT: С лакомством. 
+
+Дрессировщик сажает собаку рядом, у левой ноги. 
+
+Правой рукой, на открытой ладони, дрессировщик скармливает собаке несколько кусков лакомства. 
+
+На любом куске лакомства подаётся запрещающая команда «Фу» в угрожающей интонации и при попытке взять собакой данный кусок лакомства, бьёт её рукой по морде. 
+
+Если, после воздействия на собаку, она всё равно пытается взять кусок лакомства, то команда «Фу» подаётся в более угрожающей интонации и воздействие на собаку усиливается. 
+
+Как только попытки собаки взять лакомство прекратились, дрессировщик убирает руку с лакомством и хвалит собаку голосом «хорошо», «молодец». 
+
+Через несколько секунд снова предлагает собаке кусок лакомства, произнося команду «ешь», «можно»
+INFO:root:USER(863177821): Как сделать массаж сердца
+INFO:root:BOT: Извини, я пока не понял тебя
+INFO:root:USER(863177821): Как сделать ИВЛ собаке
+INFO:root:BOT: Извини, я пока не понял тебя
+INFO:root:USER(863177821): Потеряла сознание
+INFO:root:BOT: Извини, я пока не понял тебя
+INFO:root:USER(863177821): Собака не дышит
+INFO:root:BOT: Отсутствие дыхания — опасно для жизни. 
+
+Проверьте, нет ли препятствий в пасти, и сразу следуйте в ветиринарную клинику
+INFO:root:USER(863177821): Привет
+INFO:root:BOT: Здравствуйте! Готов ответить на любые вопросы по поведению, кормлению и здоровью собаки
+INFO:root:USER(863177821): Пока
+INFO:root:BOT: До скорого! Пусть хвост всегда виляет
+INFO:root:USER(863177821): Хвост
+INFO:root:BOT: Извини, я пока не понял тебя
+INFO:root:USER(863177821): Команда место
+INFO:root:BOT: Собака находится на поводке, дрессировщик усаживает собаку рядом, у левой ноги, подаёт команду «Место» и плавно, левой рукой, натягивает поводок вверх так, чтобы собака чувствовала, что она находится под контролем, но в тоже время ей было комфортно сидеть, и обходит один круг вокруг собаки. 
+
+Двигаться вокруг собаки нужно уверенно, при этом рука с поводком не должна двигаться из стороны в сторону. 
+
+Возвратившись на исходную позицию, дрессировщик убирает натяжение поводка и хвалит собаку голосом «хорошо, молодец»
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: dog_trainer_assistant [@dog_trainer_assistant_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:root:USER(863177821): Собака потеряла сознание
+INFO:root:BOT: Отсутствие дыхания — опасно для жизни. 
+
+Проверьте, нет ли препятствий в пасти, и сразу следуйте в ветиринарную клинику
+INFO:root:USER(863177821): Искусственное дыхание собаке
+INFO:root:BOT: Если собака не дышит, это экстренная ситуация. 
+
+Немедленно проверьте дыхательные пути, вызовите ветеринара и начинайте реанимацию
+INFO:root:USER(863177821): Массаж сердца собаке
+INFO:root:BOT: Собака не дышит — действуйте быстро: вызов ветеринара, дыхательные манёвры, поддержание сердца
+INFO:root:USER(863177821): Собака не дышит
+INFO:root:BOT: Отсутствие дыхания — опасно для жизни. 
+
+Проверьте, нет ли препятствий в пасти, и сразу следуйте в ветиринарную клинику
+INFO:root:USER(863177821): Норма корма
+INFO:root:BOT: Укажи, пожалуйста, вес собаки (например: 12 кг).
+INFO:root:USER(863177821): 6 кг, 10 месяцев
+INFO:root:BOT: **Расчёт нормы питания**
+Вес: 6.0 кг, возраст: 0.8 года
+Тип питания: сухой
+
+
+Суточная калорийность: **805 ккал**
+
+Натуралка: **537 г/сут**
+Сухой корм: **268 г/сут**
+Комбо: **161 г сухого + 215 г натуралки**
+INFO:root:USER(863177821): Норма корма
+INFO:root:BOT: Укажи, пожалуйста, вес собаки (например: 12 кг).
+INFO:root:USER(863177821): 5 кг
+INFO:root:BOT: Укажи возраст (например: 8 месяцев или 3 года).
+INFO:root:USER(863177821): 7 лет
+INFO:root:BOT: Извини, я пока не понял тебя
+INFO:root:USER(863177821): 5 кг, 8 лет
+INFO:root:BOT: **Расчёт нормы питания**
+Вес: 5.0 кг, возраст: 8.0 года
+Тип питания: сухой
+
+
+Суточная калорийность: **374 ккал**
+
+Натуралка: **250 г/сут**
+Сухой корм: **125 г/сут**
+Комбо: **75 г сухого + 100 г натуралки**
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: dog_trainer_assistant [@dog_trainer_assistant_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:root:USER(863177821): Норма корма
+INFO:root:BOT: Укажи, пожалуйста, вес собаки (например: 12 кг) и возраст (например: 8 месяцев или 3 года)
+INFO:root:USER(863177821): 5 лет и 20 кг, стерилизован
+INFO:root:BOT: **Расчёт нормы питания**
+Вес: 20.0 кг, возраст: 5.0 года
+Тип питания: сухой
+Стерилизована/кастрирована — порции уменьшены.
+
+Суточная калорийность: **900 ккал**
+
+Натуралка: **600 г/сут**
+Сухой корм: **300 г/сут**
+Комбо: **180 г сухого + 240 г натуралки**
+INFO:root:USER(863177821): Норма корма
+INFO:root:BOT: Укажи, пожалуйста, вес собаки (например: 12 кг) и возраст (например: 8 месяцев или 3 года)
+INFO:root:USER(863177821): 12 кг, 8 лет, натуралка, стерилизован
+INFO:root:BOT: **Расчёт нормы питания**
+Вес: 12.0 кг, возраст: 8.0 года
+Тип питания: натуралка
+Стерилизована/кастрирована — порции уменьшены.
+
+Суточная калорийность: **613 ккал**
+
+Натуралка: **409 г/сут**
+Сухой корм: **205 г/сут**
+Комбо: **123 г сухого + 164 г натуралки**
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: dog_trainer_assistant [@dog_trainer_assistant_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:root:USER(863177821): Команда место
+INFO:root:BOT: Собака находится на поводке, дрессировщик усаживает собаку рядом, у левой ноги, подаёт команду «Место» и плавно, левой рукой, натягивает поводок вверх так, чтобы собака чувствовала, что она находится под контролем, но в тоже время ей было комфортно сидеть, и обходит один круг вокруг собаки. 
+
+Двигаться вокруг собаки нужно уверенно, при этом рука с поводком не должна двигаться из стороны в сторону. 
+
+Возвратившись на исходную позицию, дрессировщик убирает натяжение поводка и хвалит собаку голосом «хорошо, молодец»
+INFO:root:USER(863177821): Норма корма
+INFO:root:BOT: Укажи, пожалуйста, вес собаки (например: 12 кг), возраст (например: 8 месяцев или 3 года), была ли стерилизация/кастрация и если была назначена диета - указать (натуралка/сухой/комбо)
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished name='Task-18' coro=<Dispatcher._process_polling_updates() done, defined at /Applications/GitHub/data_science_prof_level/hw4/venv_py310/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=TypeError("'<' not supported between instances of 'NoneType' and 'int'")>
+Traceback (most recent call last):
+  File "/Applications/GitHub/data_science_prof_level/hw4/venv_py310/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/Applications/GitHub/data_science_prof_level/hw4/venv_py310/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/Applications/GitHub/data_science_prof_level/hw4/venv_py310/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Applications/GitHub/data_science_prof_level/hw4/venv_py310/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "/Applications/GitHub/data_science_prof_level/hw4/venv_py310/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Applications/GitHub/data_science_prof_level/hw4/telegram_bot.py", line 198, in main_handler
+    reply = get_response(msg)
+  File "/Applications/GitHub/data_science_prof_level/hw4/telegram_bot.py", line 108, in get_response
+    return calculate_food(msg_low)
+  File "/Applications/GitHub/data_science_prof_level/hw4/telegram_bot.py", line 60, in calculate_food
+    MER = RER * 3 if age < 1 else RER * 1.6
+TypeError: '<' not supported between instances of 'NoneType' and 'int'
+INFO:root:USER(863177821): 15 кг, 16 лет, сухой, кастрация
+INFO:root:BOT: **Расчёт нормы питания**
+Вес: 15.0 кг, возраст: 16.0 года
+Тип питания: сухой
+Стерилизована/кастрирована — порции уменьшены.
+
+Суточная калорийность: **725 ккал**
+
+Натуралка: **484 г/сут**
+Сухой корм: **242 г/сут**
+Комбо: **145 г сухого + 194 г натуралки**
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: dog_trainer_assistant [@dog_trainer_assistant_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:root:USER(863177821): 15 кг, 50 кг, сухой, кастрация
+INFO:root:BOT: Укажи, пожалуйста, вес собаки (например: 12 кг), возраст (например: 8 месяцев или 3 года), была ли стерилизация/кастрация и если была назначена диета - указать (натуралка/сухой/комбо)
+INFO:root:USER(863177821): 15 кг, 50 кг, сухой, кастрация
+INFO:root:BOT: Укажи, пожалуйста, вес собаки (например: 12 кг), возраст (например: 8 месяцев или 3 года), была ли стерилизация/кастрация и если была назначена диета - указать (натуралка/сухой/комбо)
+INFO:root:USER(863177821): Погода в доме
+INFO:root:BOT: Извини, я пока не понял тебя
+INFO:root:USER(863177821): Ку
+INFO:root:BOT: Рад вас видеть! Чем могу быть полезен вам и вашему питомцу?
