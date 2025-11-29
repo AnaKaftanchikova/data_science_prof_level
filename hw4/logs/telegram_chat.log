@@ -381,3 +381,163 @@ INFO:root:USER(863177821): Погода в доме
 INFO:root:BOT: Извини, я пока не понял тебя
 INFO:root:USER(863177821): Ку
 INFO:root:BOT: Рад вас видеть! Чем могу быть полезен вам и вашему питомцу?
+ERROR:aiogram.dispatcher.dispatcher:Cause exception while getting updates.
+Traceback (most recent call last):
+  File "/Applications/GitHub/data_science_prof_level/hw4/venv_py310/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "/Applications/GitHub/data_science_prof_level/hw4/venv_py310/lib/python3.10/site-packages/aiogram/bot/bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "/Applications/GitHub/data_science_prof_level/hw4/venv_py310/lib/python3.10/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/Applications/GitHub/data_science_prof_level/hw4/venv_py310/lib/python3.10/site-packages/aiogram/bot/api.py", line 139, in make_request
+    async with session.post(url, data=req, **kwargs) as response:
+  File "/Applications/GitHub/data_science_prof_level/hw4/venv_py310/lib/python3.10/site-packages/aiohttp/client.py", line 1167, in __aenter__
+    self._resp = await self._coro
+  File "/Applications/GitHub/data_science_prof_level/hw4/venv_py310/lib/python3.10/site-packages/aiohttp/client.py", line 586, in _request
+    await resp.start(conn)
+  File "/Applications/GitHub/data_science_prof_level/hw4/venv_py310/lib/python3.10/site-packages/aiohttp/client_reqrep.py", line 900, in start
+    with self._timer:
+  File "/Applications/GitHub/data_science_prof_level/hw4/venv_py310/lib/python3.10/site-packages/aiohttp/helpers.py", line 725, in __exit__
+    raise asyncio.TimeoutError from None
+asyncio.exceptions.TimeoutError
+ERROR:aiogram.dispatcher.dispatcher:Cause exception while getting updates.
+Traceback (most recent call last):
+  File "/Applications/GitHub/data_science_prof_level/hw4/venv_py310/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "/Applications/GitHub/data_science_prof_level/hw4/venv_py310/lib/python3.10/site-packages/aiogram/bot/bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "/Applications/GitHub/data_science_prof_level/hw4/venv_py310/lib/python3.10/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/Applications/GitHub/data_science_prof_level/hw4/venv_py310/lib/python3.10/site-packages/aiogram/bot/api.py", line 139, in make_request
+    async with session.post(url, data=req, **kwargs) as response:
+  File "/Applications/GitHub/data_science_prof_level/hw4/venv_py310/lib/python3.10/site-packages/aiohttp/client.py", line 1167, in __aenter__
+    self._resp = await self._coro
+  File "/Applications/GitHub/data_science_prof_level/hw4/venv_py310/lib/python3.10/site-packages/aiohttp/client.py", line 586, in _request
+    await resp.start(conn)
+  File "/Applications/GitHub/data_science_prof_level/hw4/venv_py310/lib/python3.10/site-packages/aiohttp/client_reqrep.py", line 900, in start
+    with self._timer:
+  File "/Applications/GitHub/data_science_prof_level/hw4/venv_py310/lib/python3.10/site-packages/aiohttp/helpers.py", line 725, in __exit__
+    raise asyncio.TimeoutError from None
+asyncio.exceptions.TimeoutError
+INFO:root:USER(863177821): Сидеть
+INFO:root:BOT: Механический метод: 
+
+Собака находится рядом с левой ногой дрессировщика в положении стоя. 
+
+Дрессировщик произносит команду «сидеть», и, медленно, правой рукой, тянет поводок вверх и назад, одновременно, левой рукой нажимает на круп собаке, побуждая собаку принять положение сидя. 
+
+Как только собака приняла нужное положение, натяжение поводка и воздействие на круп убирается, дрессировщик хвалит её голосом «хорошо, молодец»
+ERROR:aiogram.dispatcher.dispatcher:Cause exception while getting updates.
+Traceback (most recent call last):
+  File "/Applications/GitHub/data_science_prof_level/hw4/venv_py310/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "/Applications/GitHub/data_science_prof_level/hw4/venv_py310/lib/python3.10/site-packages/aiogram/bot/bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "/Applications/GitHub/data_science_prof_level/hw4/venv_py310/lib/python3.10/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/Applications/GitHub/data_science_prof_level/hw4/venv_py310/lib/python3.10/site-packages/aiogram/bot/api.py", line 139, in make_request
+    async with session.post(url, data=req, **kwargs) as response:
+  File "/Applications/GitHub/data_science_prof_level/hw4/venv_py310/lib/python3.10/site-packages/aiohttp/client.py", line 1167, in __aenter__
+    self._resp = await self._coro
+  File "/Applications/GitHub/data_science_prof_level/hw4/venv_py310/lib/python3.10/site-packages/aiohttp/client.py", line 586, in _request
+    await resp.start(conn)
+  File "/Applications/GitHub/data_science_prof_level/hw4/venv_py310/lib/python3.10/site-packages/aiohttp/client_reqrep.py", line 900, in start
+    with self._timer:
+  File "/Applications/GitHub/data_science_prof_level/hw4/venv_py310/lib/python3.10/site-packages/aiohttp/helpers.py", line 725, in __exit__
+    raise asyncio.TimeoutError from None
+asyncio.exceptions.TimeoutError
+ERROR:aiogram.dispatcher.dispatcher:Cause exception while getting updates.
+Traceback (most recent call last):
+  File "/Applications/GitHub/data_science_prof_level/hw4/venv_py310/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "/Applications/GitHub/data_science_prof_level/hw4/venv_py310/lib/python3.10/site-packages/aiogram/bot/bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "/Applications/GitHub/data_science_prof_level/hw4/venv_py310/lib/python3.10/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/Applications/GitHub/data_science_prof_level/hw4/venv_py310/lib/python3.10/site-packages/aiogram/bot/api.py", line 139, in make_request
+    async with session.post(url, data=req, **kwargs) as response:
+  File "/Applications/GitHub/data_science_prof_level/hw4/venv_py310/lib/python3.10/site-packages/aiohttp/client.py", line 1167, in __aenter__
+    self._resp = await self._coro
+  File "/Applications/GitHub/data_science_prof_level/hw4/venv_py310/lib/python3.10/site-packages/aiohttp/client.py", line 586, in _request
+    await resp.start(conn)
+  File "/Applications/GitHub/data_science_prof_level/hw4/venv_py310/lib/python3.10/site-packages/aiohttp/client_reqrep.py", line 900, in start
+    with self._timer:
+  File "/Applications/GitHub/data_science_prof_level/hw4/venv_py310/lib/python3.10/site-packages/aiohttp/helpers.py", line 725, in __exit__
+    raise asyncio.TimeoutError from None
+asyncio.exceptions.TimeoutError
+ERROR:aiogram.dispatcher.dispatcher:Cause exception while getting updates.
+Traceback (most recent call last):
+  File "/Applications/GitHub/data_science_prof_level/hw4/venv_py310/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "/Applications/GitHub/data_science_prof_level/hw4/venv_py310/lib/python3.10/site-packages/aiogram/bot/bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "/Applications/GitHub/data_science_prof_level/hw4/venv_py310/lib/python3.10/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/Applications/GitHub/data_science_prof_level/hw4/venv_py310/lib/python3.10/site-packages/aiogram/bot/api.py", line 139, in make_request
+    async with session.post(url, data=req, **kwargs) as response:
+  File "/Applications/GitHub/data_science_prof_level/hw4/venv_py310/lib/python3.10/site-packages/aiohttp/client.py", line 1167, in __aenter__
+    self._resp = await self._coro
+  File "/Applications/GitHub/data_science_prof_level/hw4/venv_py310/lib/python3.10/site-packages/aiohttp/client.py", line 586, in _request
+    await resp.start(conn)
+  File "/Applications/GitHub/data_science_prof_level/hw4/venv_py310/lib/python3.10/site-packages/aiohttp/client_reqrep.py", line 900, in start
+    with self._timer:
+  File "/Applications/GitHub/data_science_prof_level/hw4/venv_py310/lib/python3.10/site-packages/aiohttp/helpers.py", line 725, in __exit__
+    raise asyncio.TimeoutError from None
+asyncio.exceptions.TimeoutError
+ERROR:aiogram.dispatcher.dispatcher:Cause exception while getting updates.
+Traceback (most recent call last):
+  File "/Applications/GitHub/data_science_prof_level/hw4/venv_py310/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "/Applications/GitHub/data_science_prof_level/hw4/venv_py310/lib/python3.10/site-packages/aiogram/bot/bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "/Applications/GitHub/data_science_prof_level/hw4/venv_py310/lib/python3.10/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/Applications/GitHub/data_science_prof_level/hw4/venv_py310/lib/python3.10/site-packages/aiogram/bot/api.py", line 139, in make_request
+    async with session.post(url, data=req, **kwargs) as response:
+  File "/Applications/GitHub/data_science_prof_level/hw4/venv_py310/lib/python3.10/site-packages/aiohttp/client.py", line 1167, in __aenter__
+    self._resp = await self._coro
+  File "/Applications/GitHub/data_science_prof_level/hw4/venv_py310/lib/python3.10/site-packages/aiohttp/client.py", line 586, in _request
+    await resp.start(conn)
+  File "/Applications/GitHub/data_science_prof_level/hw4/venv_py310/lib/python3.10/site-packages/aiohttp/client_reqrep.py", line 900, in start
+    with self._timer:
+  File "/Applications/GitHub/data_science_prof_level/hw4/venv_py310/lib/python3.10/site-packages/aiohttp/helpers.py", line 725, in __exit__
+    raise asyncio.TimeoutError from None
+asyncio.exceptions.TimeoutError
+ERROR:aiogram.dispatcher.dispatcher:Cause exception while getting updates.
+Traceback (most recent call last):
+  File "/Applications/GitHub/data_science_prof_level/hw4/venv_py310/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "/Applications/GitHub/data_science_prof_level/hw4/venv_py310/lib/python3.10/site-packages/aiogram/bot/bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "/Applications/GitHub/data_science_prof_level/hw4/venv_py310/lib/python3.10/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/Applications/GitHub/data_science_prof_level/hw4/venv_py310/lib/python3.10/site-packages/aiogram/bot/api.py", line 139, in make_request
+    async with session.post(url, data=req, **kwargs) as response:
+  File "/Applications/GitHub/data_science_prof_level/hw4/venv_py310/lib/python3.10/site-packages/aiohttp/client.py", line 1167, in __aenter__
+    self._resp = await self._coro
+  File "/Applications/GitHub/data_science_prof_level/hw4/venv_py310/lib/python3.10/site-packages/aiohttp/client.py", line 586, in _request
+    await resp.start(conn)
+  File "/Applications/GitHub/data_science_prof_level/hw4/venv_py310/lib/python3.10/site-packages/aiohttp/client_reqrep.py", line 900, in start
+    with self._timer:
+  File "/Applications/GitHub/data_science_prof_level/hw4/venv_py310/lib/python3.10/site-packages/aiohttp/helpers.py", line 725, in __exit__
+    raise asyncio.TimeoutError from None
+asyncio.exceptions.TimeoutError
+ERROR:aiogram.dispatcher.dispatcher:Cause exception while getting updates.
+Traceback (most recent call last):
+  File "/Applications/GitHub/data_science_prof_level/hw4/venv_py310/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "/Applications/GitHub/data_science_prof_level/hw4/venv_py310/lib/python3.10/site-packages/aiogram/bot/bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "/Applications/GitHub/data_science_prof_level/hw4/venv_py310/lib/python3.10/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/Applications/GitHub/data_science_prof_level/hw4/venv_py310/lib/python3.10/site-packages/aiogram/bot/api.py", line 139, in make_request
+    async with session.post(url, data=req, **kwargs) as response:
+  File "/Applications/GitHub/data_science_prof_level/hw4/venv_py310/lib/python3.10/site-packages/aiohttp/client.py", line 1167, in __aenter__
+    self._resp = await self._coro
+  File "/Applications/GitHub/data_science_prof_level/hw4/venv_py310/lib/python3.10/site-packages/aiohttp/client.py", line 586, in _request
+    await resp.start(conn)
+  File "/Applications/GitHub/data_science_prof_level/hw4/venv_py310/lib/python3.10/site-packages/aiohttp/client_reqrep.py", line 900, in start
+    with self._timer:
+  File "/Applications/GitHub/data_science_prof_level/hw4/venv_py310/lib/python3.10/site-packages/aiohttp/helpers.py", line 725, in __exit__
+    raise asyncio.TimeoutError from None
+asyncio.exceptions.TimeoutError
