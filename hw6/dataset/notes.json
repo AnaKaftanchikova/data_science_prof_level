@@ -1,0 +1,21 @@
+{
+  "categories": [
+    {
+      "id": 0,
+      "name": "lie"
+    },
+    {
+      "id": 1,
+      "name": "sit"
+    },
+    {
+      "id": 2,
+      "name": "stay"
+    }
+  ],
+  "info": {
+    "year": 2025,
+    "version": "1.0",
+    "contributor": "Label Studio"
+  }
+}
